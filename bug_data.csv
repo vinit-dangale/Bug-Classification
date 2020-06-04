@@ -1,0 +1,495 @@
+,description,label
+0,Changing an AC_DEFINE'ed variable in configure.in can require clobbers for preprocessed files,True
+1,Panning in metrofx appears accelerated,True
+2,Add a way to set the kAudioHardwarePropertyRunLoop property  on OSX only once per process,False
+3,Nightly constantly crashes [@ audiounit_property_listener_callback] when I enter a room in VidyoDesktop,True
+4,Add HE-AAC support to MP4Reader,True
+5,"Filter out expired issuer certificates within mozilla::pkix, instead of relying on NSS's CERT_CreateSubjectCertList to do it",False
+6,Try enabling the profiler tests on non-debug builds,False
+7,configure: line 16243: MOZ_FMP4: command not found,False
+8,RegExp.$N changed behavior since FF 33,True
+9,Add scroll start/stop notifications from apz to scroll observers,False
+10,[10.10] [UX] Investigate updating hover state for buttons in the tabstrip,False
+11,Add support for specifying the font smoothing background color to Moz2D,False
+12,Trickle candidates are not reliably incorporated into local SDP (in the PeerConnection),False
+13,"[Remove], [Remove all] by mouse are broken in sub-dialog",True
+14,Don't assume FrameMetrics and APZC objects are only on ContainerLayers,False
+15,Enable MP4Reader on Windows,False
+16,"[FTU][Import Contacts] Facebook, Gmail, and Outlook contacts are not available when connected to WiFi or Data during FTU",True
+17,[CSS Filters] Add a rendering test for blur radius in ems and rems,False
+18,Disable all ADB helper logs with debug pref,False
+19,"Refactor MSE tests, introduce mediasource.js shared functions",False
+20,Add mfbt/JSONWriter.h and use it for memory reporting,False
+21,dexpcomify remaining accessible classes,False
+22,make marker times start at consistent epoch,False
+23,checkSizing() and onPageFirstSized() cause uninterruptible reflows,True
+24,SettingsLock objects leak by only calling destroyDOMRequestHandler during inner-window-closed,True
+25,Build more DOM code in unified mode,False
+26,Re-export emit from protocol.js,True
+27,Tracelogger: Create the hooks for Debugger,False
+28,Add a --fix-stacks option to dmd.py,False
+29,Split up the GC helper thread into separate and independent HelperThread tasks,False
+30,"Builds with ""ac_add_options --disable-accessibility"" are broken, with ""AttributeError: 'NoneType' object has no attribute 'filetype'"", due to PContent.ipdl including PDocAccessible",True
+31,Race condition in settings api during app shutdown,True
+32,Logical coordinate support for relative positioning,False
+33,UI review for bug 1054959 (Add 'send videos' and 'send tabs' from desktop to a second screen),False
+34,[e10s] Tabs appear to crash during system shutdown,True
+35,Composition string doesn't appear after forcibly commit composition by moving focus on Linux,True
+36,Use flags to define which about: and chrome: URIs should be loaded in the content process.,False
+37,Expose an API to track DOM Promise which are left uncaught,False
+38,Port all code using nsRenderingContext::SetLineStyle/nsLineStyle to Moz2D,False
+39,Use inline data for small transparent typed objects,False
+40,Rename the snapping variant of NSRectToRect to NSRectToSnappedRect,False
+41,Omnijar.cpp:62:47: warning: self-comparison always evaluates to true [-Wtautological-compare],True
+42,Pass nsFontMetrics objects through to code that needs it instead of storing it on the nsRenderingContext,False
+43,Add the ability to mirror tabs from desktop to a second screen,False
+44,Intermittent test_input_color_picker_popup.html | Test timed out. - expected PASS,True
+45,Negative selection hides the overview graph's mask,True
+46,ImageBridgeChild thread's priority is not high enough on gonk,False
+47,[non-e10s] twitter web UI (twitter.com) scrolls up unexpectedly at doing RT or showing image,True
+48,Mochitest for making sure loadedmetadata event is fired as early as possible,False
+49,incorporate the text-orientation value into mozilla::WritingMode,False
+50,lazyRequireGetter incorrectly bound to main loader,True
+51,add MOZ_OVERRIDE annotations to subclasses of gfxFont,False
+52,"For MacOS builds running on Valgrind, make ThreadStackHelper::GetStack be a no-op",True
+53,Direct2D 1.1 doesn't clean up well after itself,True
+54,Create UITour event framework,False
+55,I see a support file in a test manifest which results in a warning,False
+56,SIMD test cases: implement int32x4.bool test case,False
+57,"When I add CSS with a :first-letter pseudo-element (even w/o declaration), Firefox 34.0 shows scrollbars.",True
+58,Line box boundaries is incorrect for vertical text,False
+59,test_tone.cpp failed with new Bionic branch for ICS devices on B2G,True
+60,"Assertion failure: maybecx->runtime()->hadOutOfMemory, at jscntxt.cpp",True
+61,"Assertion failure: addr.offset == 0, at jit/arm/MacroAssembler-arm.h",True
+62,convert all in-tree style sheets logical properties from -moz-padding-start etc. to padding-inline-start etc.,False
+63,Reftest fails on tests for bug 1087872 on Windows,True
+64,Space key included in a keyword disables search engine,True
+65,[e10s] youtube video overlay from other pages when playing HTML5 video fullscreen,True
+66,Broken HTTP/2 dependency stream ID,True
+67,Intermittent could not determine packageUrl property to use against sendchange. Was it set after 'mach build'?,True
+68,MSVC2012 bustage - security\pkix\include\pkix/Input.h(127) : error C2059: syntax error : ';',True
+69,"""Assertion failure: phi->hasUses() (Missed an unused phi)"" on asm.js testcase",True
+70,Preferences for app.update should handle onchange event,False
+71,add support for axis-relative and non-shorthand box-edge logical properties,False
+72,"Refresh animation player widgets if duration, delay or iterationCount change.",True
+73,Remove the need for hacky skipgen worker descriptors,False
+74,"Mark ParentObject as stack class, and its mObject member as nsCOMPtr; r=smaug",False
+75,Root Gradle configuration in srcdir rather than objdir,False
+76,Clean up listTabs promises,False
+77,Check if we have a downscaler before using it to avoid assertions when decoding progressive JPEGs,True
+78,Graphical glitch during animation,True
+79,Rooting hazard in CClosure::Create(),True
+80,[Text Selection][Browser] The page scrolls down during text selection,True
+81,Keep destroying the toolbox even if a panel fails,True
+82,"XSS when pasting from other app into contenteditable field, with SVG <animate>",True
+83,Failure to display images after imgFrame::mOptSurface is cleared,True
+84,"""Assertion failure: !zone->isPreservingCode()""",True
+85,[Nuwa] wrap pthread_mutex_trylock,True
+86,Make Restyle label splitted based on element id and log the callstack from javascript if available,False
+87,Absolute child element should not be selectable if parent has -moz-user-select: none,True
+88,Fix mFileStatus ordering in CacheEntry::Load,True
+89,"Replace {INCREMENT,DECREMENT}_RECURSION_LEVEL in pldhash.cpp with an RAII class",False
+90,Simplify new object cache allocation,False
+91,Samples column doesn't have enough space for the label,True
+92,Turn on the debugger whenever the devtools are opened,False
+93,[EME] ClearKey doesn't work on MacOSX,True
+94,SIMD: Factor template objects within a compartment,False
+95,"Intermittent parse-a-sizes-attribute.html | <img srcset=""data:,a 300w, data:,b 301w""> ref sizes=""100vw"" (standards mode) - assert_unreached: ref currentSrc was null Reached unreachable code",True
+96,"[e10s] ""View Image/Video"" in remote browser causes unsafe CPOW usage warning",True
+97,Type confusion in HTMLSourceElement::BindToTree,True
+98,ruby-align: space-between with strange render,True
+99,InContent Prefs - Don't allow text selection of categories,True
+100,Building with --enable-ipdl-tests fails,True
+101,Move ThreadSources into its own devtools-wide file,False
+102,FlameGraph's destroy function should be async,False
+103,Unified build failure in GMPVideoDecoder,True
+104,Atomic byte operations on x86_64 need not pin any registers at all,False
+105,New tab user onboarding for sponsored suggested tiles,False
+106,Buffer overflow xml parser,True
+107,Flexbox appears to use an inefficient rendering algorithm which causes massive browser load for a relatively small number of nested flex items.,True
+108,Some mochitest checks don't handle removed tracks properly,False
+109,Add a test for passing Request objects to DOM cache match methods,False
+110,don't use QueryInterface when the compiler can do the cast for us,False
+111,Update the way Firefox reads directoryLinks.json sent from the server for the tiles v3 endpoint,False
+112,create nsIURIClassifier.ClassifyLocalWithTables,False
+113,js::StringifySavedFrameStack doesn't put the string in the cx's compartment like it promises,True
+114,A variant of Bug 1144988 lets one bypass same-origin policy,True
+115,Disabling an m-section doesn't tear down the ICE stream,True
+116,Add OS X shell builds to Treeherder,False
+117,IPC Proxy for HyperText,False
+118,"Clean up SetInlinePropertyOnTextNode, GetInlinePropertyBase, RemoveInlinePropertyImpl, GetComputedStyle, IsCSSInvertible, Get*Property, GetCSSInlinePropertyBase, etc.",False
+119,APZCs can be leaked when a compositor shuts down,True
+120,Various DOM manifest mochitests are going to permafail when Gecko 39 merges to Aurora,True
+121,"Assertion failure: !realParent || realParent == cx->global() || realParent->isUnqualifiedVarObj(), at js/src/jsfun.cpp:2145",True
+122,Remove uses of nsIProgrammingLanguage::JAVASCRIPT2 from Console.cpp,False
+123,"Replace ""Logical"" w/ ""FlexRelative"" in flexbox functions/comments about [main-axis,cross-axis] positions & sizes",False
+124,[Flame][Email]It may enter the next adjacent folder when you want to enter one of the folders in Inbox view.,True
+125,"Bring NativeDefineProperty up to ES6 [[DefineOwnProperty]] standard behavior, with one exception for resolve hooks",False
+126,Asynchronous Plugin Init crashes due to invalid NPStreams,True
+127,[jsdbg2] Post a runnable to fire the onGarbageCollection hook,True
+128,[css-grid] Implement Static Position of Grid Container Children,False
+129,Crash [@ ??] with SIMD swizzle,True
+130,Add profiler timeline markers for HTML/XML parsing,False
+131,"Child abort on send signature @ mozilla::dom::PStorageChild::SendPreload(nsCString const &,unsigned int const &,nsTArray<nsString> *,nsTArray<nsString> *,nsresult *)",True
+132,"Length properties of (Weak){Map,Set} constructors should be 0",False
+133,social buttons are too large,True
+134,leaks in GStreamerFormatHelper,True
+135,"Stop leaking DeviceSuccessCallbackRunnable objects, and release its mOnSuccess and mOnFailure on the main thread if needed",True
+136,"Intermittent media-source/mediasource-redundant-seek.html | Test redundant fully prebuffered seek - assert_equals: Event types match. expected ""seeking"" but got ""timeupdate""",True
+137,The NSS_CheckVersion function is not accessible in the NSS library that is installed alongside newer Firefox releases.,True
+138,SVG text on a path fails to render with vertical writing mode,True
+139,Implement UXTH in the ARM simulator,False
+140,"Assertion failure: ""Shouldn't have prev lines"" with ruby",True
+141,TabChild should initialize ServiceWorkerManager before starting the first loading,True
+142,Use different icon for locally built Firefox vs. official Nightly,False
+143,Style guidelines: a spidermonkey can't change its spots,False
+144,Make BaseProxyHandler::getPropertyDescriptor not-pure virtual,False
+145,Skip AccessibleCaret frame if nsDisplayListBuilder doesn't build caret,True
+146,touchend event on media element is not sent if element is hidden on touchstart,True
+147,./mach gtest GeckoMediaPlugins.* fails when run in a docker container,True
+148,fix AtkHyperlink::GetStartIndex,True
+149,Resizing performance tool doesn't not maintain selection accurately,True
+150,We need better error reporting for malformed msids,False
+151,The directional caret should point in the opposite direction of what backspace will do,False
+152,remove box-sizing: padding-box,False
+153,Merging the final update message should take pinned status of the closed tab into account,False
+154,Handle return values of FallibleTArray functions in dom/,False
+155,"Add an API for reading window contents using the OS, rather than the compositor backbuffer",False
+156,OpenH264 appears to send STAP-A aggregation packets in mode 0,True
+157,Re-enable (post experiment) Windows / OSX Core location provider on Nightly/Aurora,False
+158,Add nice intro/descriptive helper tooltips for the different details view tabs,False
+159,if the layer we hit doesn't have an apzc (and no ancestor does either) search the tree for the root apzc with the same layers id,True
+160,"Assertion failure: item->isKind(isImport ? PNK_IMPORT_SPEC : PNK_EXPORT_SPEC), at frontend/NameFunctions.cpp",True
+161,Implement (Worker)SourceActor.source,False
+162,New Gecko selection carets cannot reverse their positions,True
+163,LocalStorage inspector does not show all key-value pairs,True
+164,Make mozbuild's setup.py work,False
+165,Packaged app channels are created for !// in URL query,True
+166,Set bottom left/right radius values for Title bar,True
+167,"make getText{At,After,Before}OffsetCB work with proxies",False
+168,ARM64: Add build support,False
+169,Telemetry for percentage of password fields on safe/unsafe pages,False
+170,Reftest failures on GTK3 due to native theme background,True
+171,"Packaged app's (app://) JS files are not loaded and do not trigger ""onfetch"" handler",True
+172,Update libjpeg-turbo to version 1.4.2,False
+173,[UX] Create design spec for final onboarding assets for tracking protection in private browsing mode,False
+174,"[css-grid] Implement ""Implied Minimum Size of Grid Items"" (special min-width/height:auto behavior)",False
+175,Synthesis of native mouse scroll events is incorrect on GTK3,True
+176,Source Map Controller/Renderer/Orchestrator,False
+177,[non-e10s] The update process doesn't work within about:serviceworkers in non-e10s mode,True
+178,replace Compositor::PrepareViewport with projection info stored on render targets,False
+179,don't measure size of decorations for override-redirect windows,False
+180,Make Chaos Mode affect PLDHashTable's iterators,False
+181,Builtin accessor functions must be named 'get foo' or 'set foo' (where 'foo' is the name of the property used to access the accessor),True
+182,Implement one-off searches from Awesomebar,False
+183,"crash in mozilla::MediaPipelineFactory::CreateMediaPipelineReceiving(mozilla::JsepTrackPair const&, mozilla::JsepTrack const&, unsigned int, mozilla::RefPtr<T>, mozilla::RefPtr<T>, nsAutoPtr<T>, mozilla::RefPtr<T> const&)",True
+184,[Page Not Found] Learn More for Tracking in about:preferences#privacy,True
+185,Eliminate nsIPrincipal::cookieJar,False
+186,Investigate refactoring bytecode compilation,False
+187,Use channel->asyncOpen2 in parser/htmlparser/nsExpatDriver.cpp,False
+188,"2,000 instances of ""Called close() before start()!: 'mStarted'"" emitted from dom/workers/MessagePort.cpp during linux64 debug testing",True
+189,[meta] Performance Tools Fx42,False
+190,cloned image node omits naturalWidth and naturalHeight properties,True
+191,[GTK] nsGtkIMModule should be renamed to mozilla::widget::IMContextWrapper,False
+192,WebSocketChannel accesses nsDocShell and nsDocument off the main thread,True
+193,Replace nsBaseHashtable::EnumerateRead() calls in image/ with iterators,False
+194,Replace nsBaseHashtable::EnumerateRead() calls in dom/quota/ with iterators,False
+195,ARM64: Move Lowering's visitConstant() to shared code,False
+196,Remove Decoder::GetDecodeTotallyDone(),False
+197,Remove unused epoch time from RunFrameRequestCallbacks,False
+198,"17.96% regression on browsermark 2.1, graphics SVG on July 22th, 2015",True
+199,Refactor service worker management code and implement limited lifetime for service workers,False
+200,Elements flash/disappear on specific webpage,True
+201,Missing bounds check causes memory-safety bug in ProgramBinary::linkAttributes,True
+202,Drop subscriptions for a site when the user revokes push permissions,False
+203,Set MOZ_CURRENT_PROJECT in post-build automation steps on universal builds,True
+204,Fix insufficient includes in MediaEventSource.h,True
+205,none-ion compile errors: invalid static_cast from LNode,True
+206,"Assertion failure: this->is<T>(), at jsobj.h",True
+207,Fix dom/media/platforms/wmf/ compilation on mingw.,True
+208,Use channel->ascynOpen2 toolkit/components/url-classifier/nsUrlClassifierStreamUpdater.cpp,False
+209,remove PR_snprintf calls in intl/,False
+210,Enable -Wshadow in directories that have no -Wshadow warnings,False
+211,Intermittent test_peerConnection_basicAudioVideoNoBundleNoRtcpMux.html | Test timed out or PeerConnectionWrapper (pcRemote): legal ICE state transition from new to failed,True
+212,shutdown crash in nsIPrincipal::GetAppStatus(),True
+213,FxOS Geo Stumbling: refactor for independance of GonkGPS code,False
+214,Toolbox can't be closed after setting a breakpoint,True
+215,Various APIs should return same ServiceWorkerRegistration object with js equality,False
+216,"""Stop Sharing"" in gUM in-use doorhanger doesn't revoke persistent permissions in different-domain iframe",True
+217,HTML5 Video on YouTube are not playing with FF 41 beta 7,True
+218,[UX] need UX for hijacking recovery,False
+219,Please disable e10s in aurora,False
+220,[dev theme] Back button in the toolbar has additional border when tab history is expanded,True
+221,PDF.js doesn't print barcode labels in PDF,True
+222,Changing properties of a new bookmark while adding it acts on the last bookmark in the current container,True
+223,Use channel->asyncOpen2() in dom/xul/XULDocument.cpp,False
+224,colors that are set to CSS variables do not obey browser.display.document_color_use (breaks in-content pages in high contrast mode),True
+225,Audit the callers of the two-argument OriginAttributes constructor,False
+226,WebGL 2 - GetQuery returns wrong query.,True
+227,Remove the release-mode IsCallerChrome assertions from nsDOMWindowUtils,False
+228,"Intermittent e10s browser_ctrlTab.js | Ctrl+Tab -> Ctrl+W removes one tab - Got 4, expected 3",True
+229,mach build faster doesn't update resource:///modules/MigrationUtils.jsm,True
+230,"crash in mozilla::AudioChunk::SliceTo(__int64, __int64)",True
+231,Channelwrapper: Fix up maybeWrapChannel to wrap if not gecko internal channel,True
+232,unsafe CPOW usage from non-addon code should throw,False
+233,StructuedClone of ImageBitmap is actually transfer underlying Image which is not right.,True
+234,Fix clang's -Wimplicit-fallthrough warnings in gfx/ipc/GfxMessageUtils.h,True
+235,Crash [@ js::jit::AutoWritableJitCode::AutoWritableJitCode] with OOM,True
+236,Remove the Request.context specific bits from fetch-request-resources.https.html,False
+237,Can't reload the toolbox on windows 10,True
+238,NS_ERROR_UNEXPECTED when reading heap snapshot,True
+239,Style heap view,False
+240,ServiceWorkerInfo should be an XPCOM object.,False
+241,In-memory blobs over 1MB can't be played in a media element,True
+242,Fix jarid in appcache after bug 1032254 landing,True
+243,clarify ownership relationships for creators of AudioData,False
+244,Another round of Reflect.parse tune-ups,True
+245,Make filter input prettier,False
+246,Long strings displayed in the memory tool tree causes the sidebar to collapse,True
+247,KeyframeEffectReadOnly objects end up keeping lots of other objects alive too long,True
+248,"MemoryActor should use ""runtime: true"" rather than ""debuggees: this.dbg"" when saving snapshots from browser toolbox",True
+249,"Assertion failure: v.isObject(), at js/src/jit/MacroAssembler.cpp:1947",True
+250,Measuring tool doesn't remove 'mouseleave' event listeners,True
+251,Fix some indentation issue in ServiceWorkerManager,False
+252,[EME] Shaka player ClearKey demo doesn't work in Firefox,True
+253,"media/libav/libavutil/mem.c:34: /usr/include/malloc.h:3:2: error: ""<malloc.h> has been replaced by <stdlib.h>""",True
+254,Text shadow of emphasis marks should use the color of the shadow,True
+255,MSE with trick mode DASH adaptation freezes playback on Firefox,True
+256,[GTK3] Dropdown menu at wellsfargo.com is unreadable (text is pushed too far down & clipped),True
+257,"""Assertion failure: !Failed(), at ErrorResult.h:103"" - mozilla::dom::AbortablePromise::DoAbort",True
+258,[Static Analysis][Unchecked return value] Function CacheStorageService::DoomStorageEntries from CacheStorageService.cpp,True
+259,"Assertion failure: shouldYFlip || srcStride != dstStride (Performance trap -- should handle this case earlier to avoid memcpy), at dom/canvas/WebGLTexelConversions.cpp:381",True
+260,Enable layout.css.text-emphasis.enabled by default,False
+261,Remove the nursery performance cliff caused by putting large arrays in the WholeObjectBuffer,True
+262,Change FrameActor to protocol.js,False
+263,Intermittent browser_animation_timeline_scrubber_moves.js | This test exceeded the timeout threshold. It should be rewritten or split up.,True
+264,test for bug  1233598,False
+265,libmozavcodec not loaded on mac.,True
+266,[WebGL2] pass getFramebufferAttachmentParameter in gl-object-get-calls.html,True
+267,"Assertion failure: message, at js/src/jscntxt.cpp:818 with OOM",True
+268,fetch() function not always applying Headers to outbound requests.,True
+269,"For HTML elements in HTML documents, NamedNodeMap should only have lowercase property names",False
+270,[Static Analysis][Uninitialized scalar field] In function js::FutexRuntime::FutexRuntime from AtomicsObject.cpp,True
+271,Crash [@ ObjectType] or Crash [@ CanInlineSetPropTypeCheck] with use-after-free,True
+272,Stop using ICU's autoconf build system,False
+273,Implement LinkStyle for SVGStyleElement interface,False
+274,createImageBitmap ends up throwing wrong exceptions,True
+275,CSS bug with mouse over effect,True
+276,KeyframeEffectReadOnly constructor crashes when the target element does not have the parent?,True
+277,Annotate addonId into crash report,False
+278,It's hard to read text on Error pages in iframes (first letters in each row are completely clipped),True
+279,Panning and zooming an input field when it gains focus has too much latency in Fennec,False
+280,[DevTools][Memory] The cursor type is not I-beam when the mouse pointer is over the heap-view,True
+281,VR HMDs should create their own VsyncSource; widget/etc. should keep track and switch to listening to them,False
+282,"Assertion failure: result ([OOM] Is it really infallible?), at js/src/ds/LifoAlloc.h:281 with BacktrackingAllocator involved",True
+283,"###!!! ASSERTION: Null pres shell: 'mShell', file ../../dist/include/nsPresContext.h, line 171",True
+284,implement KeyframeEffectReadOnly spacing modes,False
+285,Use BlockDuration (when available) rather than estimating frame duration,False
+286,"Wave Decoding on problematic files, and 6-8 channel files",True
+287,Swapping docShells doesn't work for regular browser elements,True
+288,crash in mozilla::detail::RefCounted<T>::Release while PopClip in D2D,True
+289,Fix OOM handling in usages of GlobalObject::maybeGetIntrinsicValue,True
+290,"Assertion failure: hasOptimizations(), at js/src/jit/CompileInfo.h:168",True
+291,"Assertion failure: box->initialHeap() == initialHeap(), at js/src/jit/MIR.h:3460",True
+292,Continue showing AccessibleCaret when scrolling or panning the page,False
+293,Ensure Accelerated Canvas on Mac happens only on 10.7 or later,True
+294,crash in mozilla::AccessibleCaretEventHub::HandleTouchEvent,True
+295,Implement basic DOM bindings for Servo,False
+296,Remove NS_SUCCESS_I_DID_SOMETHING,False
+297,"100% reproducible AsyncShutdown crash: ""SessionFile: Finish writing Session Restore data""",True
+298,get rid of HTML table CacheChildren,False
+299,No need to reset mReader in ~MediaDecoderStateMachine(),False
+300,Move resource files in layout/style/ into res/ directory,False
+301,Unfocused text color in light theme has very low contrast,False
+302,Crash [@ EncodeLatin1] with OOM,True
+303,Do not compress forward-icon in the default theme on Windows 10,True
+304,Stack Exhaustion starting at xul!_moz_cairo_region_create_rectangles,True
+305,MOZ_MUST_USE treats expressions evaluating to lvalue references as MUST_USE,False
+306,Regression: distribution setting user prefs instead of default prefs,True
+307,Switch the AutoEntryScripts in nsDirectoryViewer to take ownership of error reporting,False
+308,Graphite 2 vm::Machine::Code::estimateCodeDataOut underestimation leads to buffer overflow,True
+309,Remove AutoJSAPI::InitWithLegacyErrorReporting,False
+310,about:home (homepage) doesn't switch to overflowed mode when it's loaded in a narrow content area,True
+311,simplify and cleanup ServiceWorkerInfo,False
+312,IonMonkey: MIPS: Detect Loongson at runtime,False
+313,accessible/windows/msaa/AccessibleWrap.cpp(1528): warning C4312: 'reinterpret_cast': conversion from 'const LONG' to 'void *' of greater size,True
+314,JS JIT tests failing on VS2015 builds due to missing universal CRT DLLs,True
+315,graphite2: use of uninitialized memory in [@graphite2::vm::Machine::run],True
+316,Firefox 45 fails to send Cookie header with XHR post requests done from a web worker when third-party cookies are blocked,True
+317,Use curly quotes instead of single quotes in our user facing strings,False
+318,"Intermittent browser_computed_search-filter_clear.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. -",True
+319,Don't fallback to Desktop GL via WGL when ANGLE fails on Windows,True
+320,Clean up getCurrentCensusTaker style,False
+321,Fix image/test/mochitest/test_animation2.html to test what it is intending to test,True
+322,"Avoid WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80040111 in dom/base/nsFrameLoader.cpp during startup",True
+323,Avoid JavaScript strict warning in AppsUtils.jsm during startup,True
+324,Image loads for URLs that fail to resolve don't dispatch error event,False
+325,SRI: implement require-sri-for resources (enforce Subresource Integrity),False
+326,don't rely on the views we stash when we destroy a subdocument frame to stick around,True
+327,service workers should check for devtools http testing option on top window,True
+328,Suggestions twitch when I edit string in location bar,True
+329,crash in nsHTMLEditor::SplitStyleAbovePoint,True
+330,test_animations_with_disabled_properties.html and test_transitions_with_disabled_properties.html are going to permafail when Gecko 48 merges to Beta (TypeError: display.getAnimations is not a function),True
+331,Change app.update.promptWaitTime preference to 8 days on the release (includes beta) and aurora channels,False
+332,implement ServoStyleSet::ResolveStyleForNonElement for text nodes,False
+333,Give fullscreenElement and fullscreenEnabled attributes a dummy setter rather than making them readonly,False
+334,nestegg: use-of-uninitialized-value in [@ne_find_cue_point_for_tstamp],True
+335,Send invalidations for the first image frame properly,True
+336,Integer reflected attributes on elements cannot store INT32_MIN,True
+337,Reduce media threadpool size,False
+338,[Decoder Doctor] Default-enable notifications for WMF-missing on Nightly 49,False
+339,Binary Key Support,False
+340,_getSearchEngineId's fallback to the engine name can leak user data,True
+341,Use Immutable data structures in messages reducer,False
+342,Move GenerateCSSPropsGenerated.py invocation to moz.build,False
+343,make alerting for changes in num_constructors more agressive.,False
+344,Add OS to Sync user agent string,False
+345,Elucidate reference counting of SharedImmutableStringsCache,False
+346,"Supporting ""display: -webkit-flex"" as an alias for ""display: flex"" (and associated properties)",True
+347,Audit frame iterators for saved frame chain removal,False
+348,crash in igd10*.dll,True
+349,Use DOMWindowCreated instead DOMContentLoaded to propagate the userContextId from content to parent process,False
+350,Rename RegionBuilder::Or to RegionBuilder::OrWith,False
+351,"When inserting a link into HTML composition, the text part sometimes gets linkified upon send resulting in a double link. Regression from bug 964024.",True
+352,"75% permafail on WinXP test_outerHTML.xhtml,test_picture_mutations.html,test_picture_pref.html,test_pointerPreserves3D.html,test_pointerPreserves3DClip.html,test_resource_timing.html, | application timed out after 330 seconds with no output",True
+353,Add sdp for video FEC,False
+354,Have MozBoot support msys2,False
+355,Fix -Wshadow warnings in dom/media/ogg/,True
+356,HTML Tooltip keeps the focus after being hidden,True
+357,Improve existing bookmarks tracker tests,False
+358,[RTL] The search go arrow should point left,False
+359,Show JS stack traces of Fetch requests in Netmonitor,False
+360,pixman: integer overflow in create_bits function,True
+361,Remove run-time Mavericks checks in nsAppShell.mm,False
+362,Rename all our JSContext stuff to be nicer,False
+363,Bootstrap out-of-process PCompositorBridge,False
+364,Implement the step attribute for <input type=month>,False
+365,Disable paint-skipping for elements with the CSS clip property,True
+366,"Add functionality in ARIAMap to use integer index instead of a raw pointer for role map entries, and change the Accessible class to use this index for its role map entry variable",False
+367,heap-use-after-free in nsNodeUtils::NativeAnonymousChildListChange,True
+368,Replace |nsiSupports owner| with |nsIPrincipal triggeringPrincipal| within nsIDocShell,False
+369,Ensure ScrollMetadata::sNullMetadata is initialized in the GPU process,False
+370,Replace ownerGlobal with ownerDocument.defaultView in devtools frontend,False
+371,[wasm] Debugger source view hang at removeBreakpoints when viewing AngryBots,True
+372,Update media telemetry probes expiring in Firefox 50.,False
+373,Add an ISurfaceProvider for single-frame images that also serves as an IDecodingTask,False
+374,"Fix e10s issues in resending HTTP requests, enable browser_net_resend.js test",True
+375,"2.87 - 5.19% damp  (windows7-32, windows8-64) regression on push 0372c7296be3197d796edadfa6a13197d1019024 (Sat Aug 6 2016)",True
+376,"many WorkerHolder classes expect to get Terminated status, but HoldWorker() does not fail if worker is already Terminated",True
+377,[e10s-multi] unexpected pass in browser_forgetaboutsite.js with multiple content processes,True
+378,"jslock.h is dead, long live jsnspr.h",False
+379,"avoid compiling {Read,Write}Sentinel calls in non-sentinel checking builds",True
+380,sourceeditor setAutocompletionText could be faster,False
+381,Add smooth scrolling when clicking on closing tag of expanded node,False
+382,Clipboard (Paste /Copy function) does not work on this release  (MacOS),True
+383,Big slowdown happening every x minutes,True
+384,Venmo.com doesn't accept auto-filled username and password on login form,True
+385,Deploy Infernyx 0.2.16,False
+386,Update help icon to photon styling.,False
+387,Add flag to IsSafeModeRequested that skips key press checks,False
+388,Enable the launcher process by default on Nightly,False
+389,DevTools tab reordering is not working in RTL locales,True
+390,Trying PIP mode after an unsuccessful other crashes the app,True
+391,"[Linux]Suggested list closes when trying to navigate through the one-offs using ""ALT"" key + ""↓"" arrow key",True
+392,Slotted nodes not being displayed in a shadow DOM tree if the node is a text,True
+393,Use fluent for about:restartrequired,False
+394,Private active tab not shown correctly on iPad with the latest private mode changes,True
+395,Migrating Pocket off any bootstrap code,False
+396,Address bar does not autofill unvisited bookmark URLs,True
+397,Re-enable the NUMBER_OF_PROFILES probe,False
+398,Enable multiselect tabs feature on early beta builds,False
+399,"When notifying listeners that a study is ending, include the reason why the study is ending",False
+400,Clicking remove on a study in about:studies doesn't work,True
+401,Link to the new content blocking onboarding from about:privatebrowsing when the CB UI is enabled,False
+402,Remove vswhere binary from the tree,False
+403,Devtools flickering,True
+404,"Unable to adjust height, and width of devtools window (Firefox-Nightly)",True
+405,Review mechanism to update actors spawned in parent process after a browser-swap,False
+406,Add indicator for which window has a sound-playing tab in Taskbar window popup,False
+407,Window isn't restored in prior position on external-monitor with > 100% DPI,True
+408,Unable to open Nightly for Android,True
+409,Crash when turning off a11y during auto-fill,True
+410,Unable to log into any google services with GeckoView,True
+411,[META] improve about:addons usability,False
+412,annotate Windows crash reports with whether system has error-correcting (ECC) RAM (MemoryErrorCorrection),False
+413,26KB base content JS memory regression from bug 1483002,True
+414,GeckoDriver broken on mingw build,True
+415,Remove xpt.py,False
+416,"Remove support for ""annotations"" options to PlacesTransactions.NewBookmark/NewFolder/NewLivemark",False
+417,XCUITests: ActivityStream tests failing intermittently,True
+418,Fennec x86 dosen't build with NDK 16+,True
+419,[remote-dbg-next] Internationalize components/debugtarget/ExtensionDetail.js,False
+420,Unaligned title in Data Managment menu,True
+421,Wrong project name in README.md of focus-ios,True
+422,Re-enable clang-cl warnings in gfx/gl/,False
+423,GV API to selectively delete user data using GeckoSession (Clear User Data API),False
+424,PrioEncoder/libprio hitting assertion in freebl/ctr.c,True
+425,Default cookie restrictions broke Fx Accounts signup page,True
+426,Sync isn't working,True
+427,crash tab when i write js comment,True
+428,Just updated to 62.0 64 bit and my internet explorer bookmarks are gone. I read the statement about being removed on the next update but theyre gone now,True
+429,Implement galeon-style smart bookmarks toolbar,False
+430,Make GeckoDisplay and PanZoomController constructors protected,False
+431,Firefox password Not update in new version,True
+432,0.79% installer size (osx-cross) regression on push 238267dc78ec3dd4bbf2f996bea4e877547e69e8 (Fri Sep 7 2018),True
+433,"Forced crash with MOZ_CRASH(""Shutdown hanging before starting."")",True
+434,Compare FF60 with FF63 Talos results,False
+435,[Regression] Top sites view is broken after removing a top site,True
+436,Investigate removing the lresolv hack for Rust builds on MacOS,False
+437,Update pdf.js to version 2.0.843,False
+438,Crash in IPCError-browser | ShutDownKill,True
+439,Invalid CH.legacy_version is not rejected in TLS 1.3,True
+440,Extra space is displayed in Custom Tab toolbar,True
+441,The bookmarks bar is not recalculated after installing an extension,True
+442,quote() fails when explicitly disabling features in JS build,True
+443,[Mobile SDK] Sketch out the API,False
+444,Re-implement Places Autocomplete results timing telemetry,False
+445,Hook up the new Address Bar to BrowserUsageTelemetry.jsm or re-implement,False
+446,Crash in ExpandedPrincipal::SubsumesInternal,True
+447,Migrate add-on studies from remote action storage,False
+448,ci-admin unit tests failing,True
+449,Teach |mach bootstrap| for Fennec to find the JDK on its own on Gentoo,False
+450,Show time in flame graph in performance devtools,False
+451,Remove MinGW-gcc build jobs from -central,False
+452,Migrate baseMenuOverlay.dtd to Fluent,False
+453,Startup crash for local fuzzing builds when running libfuzzer,True
+454,Send and Bookmarks Icons in Menu do not resize (Reproducible),True
+455,Did not receive Try push notification emails,True
+456,"'Security wrapper denied access to property ""supportedNetworks""' of BasicCardRequest but access to the containing object is allowed",True
+457,Revamp about:buildconfig,False
+458,Support final AV1 MP4 MIME type,False
+459,Browser Console locks up the browser under heavy load,True
+460,Addon menu items disappear frequently,True
+461,The startup process time has doubled from ESR 52.9 to ESR 60.2,True
+462,Proxy Auto configuration file issue with Version 62.0 on Mac OS (only),True
+463,Use new ADB extension in WebIDE,False
+464,libxul.so related segfaults when firefox is killed during #1491318,True
+465,Implement webRequest.onActionIgnored,False
+466,Update pdf.js to version 2.0.854,False
+467,Remove the XPCOM registration for nsNativeAppSupportBase,False
+468,Use clang 7final to build firefox & clang-tidy,False
+469,Ensure engines with overridden telemetry names correctly report their validation results,False
+470,[meta] Rewrite the internal configuration user interface (“about:config”) using web technologies,False
+471,Create an HTML mockup for the internal configuration user interface,False
+472,"Add telemetry to improve the understanding of current ""about:config"" usage patterns",False
+473,[meta] Reduce useless about:blank document creation,False
+474,Remove tmpDir initialization from InitOSFileConstants,False
+475,Consider Node.js tooling for minifying JavaScript,False
+476,[meta] Fission for the front-end,False
+477,Add eMudhra Technologies Limited root certificates to NSS,False
+478,Remove old updates UI,False
+479,Require rust 1.31,False
+480,Add support for nested GeckoRuntimeSettings,False
+481,privatebrowsing support for find api,False
+482,about:support is not localized any more,True
+483,Pref on ASR Snippets for 65 Beta and Release,False
+484,Build compiler-rt libs for android x86 and aarch64,False
+485,Enable Activate the Whatnew page on Nightly for a day,False
+486,"[Content Blocking] Blue label from Tracking list in ""Show site information"" is hardly visible on High Contrast mode",True
+487,"Flexbox layout panel doesn't get populated  when an element dynamically gets ""display:flex"" styling via e.g. media query starting to apply",True
+488,DnD not working tabs and text Nightly 66,True
+489,Add documentation for about:debugging tests,False
+490,Perma dt browser/base/content/test/static/browser_parsable_css.js | Got error message for chrome://devtools/skin/webconsole.css: Unknown property ‘overflow-anchor’. Declaration dropped. - when Gecko 66 merges to Beta on 2019-01-21,True
+491,Extend the lifetime of some more performance probes to never expire,False
+492,Use debian9 build image for running the profile in 3-tier PGO for linux,False
+493,Wikipedia searchplugin for zh-TW is broken,True
